@@ -4,6 +4,7 @@ import NavSideBar from './NavSideBar';
 import TweetSearch from './TweetSearch';
 import MainContent from './MainContent';
 import './style.css'
+
 const api_endPoint = 'https://sandbox.nextleap.app/page/fetch'
 const Home = () => {
     const [data, setData] = useState(null);
